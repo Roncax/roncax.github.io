@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/paolo-roncaglioni/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Roncax"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:paolo.roncaglioni@gmail.com"
+        }
+    ]
+}

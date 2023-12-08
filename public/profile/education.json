@@ -1,0 +1,28 @@
+{
+    "education":[
+        {
+            "title": "Jun 20XX - Jun 20YY",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"XYZ University, City",
+            "cardDetailedText": "Grade - 88",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Jun 20XX - Jun 20YY",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"XYZ University, City",
+            "cardDetailedText": "Grade - 88",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "August 2014",
+            "cardTitle": "High School",
+            "cardSubtitle":"IS Albert Einstein, Vimercate (MB) Italy",
+            "cardDetailedText": "Marks - 70"
+        }
+    ]
+}
