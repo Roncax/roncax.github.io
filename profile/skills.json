@@ -1,24 +1,18 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked or I have experience with:",
     "skills": [
         {
             "title": "Languages & Databases",
             "items": [
                 {
                     "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
+                    "title": "Java",
+                    "experience":5
                 },
                 {
                     "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "title": "Python",
+                    "experience":4
                 }
             ]
         },
@@ -27,11 +21,13 @@
             "items": [
                 {
                     "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "title": "Android",
+                    "experience":3
                 },
                 {
                     "icon": "images/skills/react.png",
-                    "title": "React"
+                    "title": "React",
+                    "experience":1
                 }
             ]
         },
@@ -40,15 +36,28 @@
             "items": [
                 {
                     "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "title": "Android Studio",
+                    "experience":1
                 },
                 {
                     "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "title": "Git",
+                    "experience":4
                 },
                 {
                     "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "title": "Docker",
+                    "experience":1
+                }
+            ]
+        },
+        {
+            "title": "AI & ML",
+            "items": [
+                {
+                    "icon": "images/skills/pythorch.png",
+                    "title": "Pythorch",
+                    "experience":1
                 }
             ]
         }

@@ -13,7 +13,7 @@
             "title": "Jun 2015 - Jun 2019",
             "cardTitle": "Computer Science Engineering",
             "cardSubtitle":"Politecnico di Milano, Milan",
-            "cardDetailedText": "Grade - 88",
+            
             "icon" : {
                 "src": "images/education/polimi-logo.png"
             }
@@ -21,8 +21,8 @@
         {
             "title": "Aug 2014",
             "cardTitle": "High School",
-            "cardSubtitle":"IIS Albert Einstein, Vimercate (MB) Italy",
-            "cardDetailedText": "Marks - 70"
+            "cardSubtitle":"IIS Albert Einstein, Vimercate (MB) Italy"
+            
         }
     ]
 }

@@ -1,12 +1,7 @@
 {
-  "short_name": "Mayank Agarwal",
-  "name": "Mayank Agarwal - Portfolio",
+  "short_name": "Paolo Roncaglioni",
+  "name": "Paolo Roncaglioni - Portfolio",
   "icons": [
-    {
-      "src": "images/logo.png",
-      "type": "image/png",
-      "sizes": "425x225"
-    }
   ],
   "start_url": ".",
   "display": "standalone",
