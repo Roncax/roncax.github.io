@@ -1,10 +1,10 @@
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import React, { useEffect, useState, useContext } from 'react';
-import { withRouter } from 'react-router';
-import { NavLink } from 'react-router-dom';
-import styled, { ThemeContext } from 'styled-components';
-import endpoints from '../constants/endpoints';
-import ThemeToggler from './ThemeToggler';
+import { Navbar, Nav, Container } from "react-bootstrap";
+import React, { useEffect, useState, useContext } from "react";
+import { withRouter } from "react-router";
+import { NavLink } from "react-router-dom";
+import styled, { ThemeContext } from "styled-components";
+import endpoints from "../constants/endpoints";
+import ThemeToggler from "./ThemeToggler";
 
 const styles = {
   logoStyle: {
@@ -43,7 +43,7 @@ const NavBar = () => {
 
   useEffect(() => {
     fetch(endpoints.navbar, {
-      method: 'GET',
+      method: "GET",
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -62,16 +62,7 @@ const NavBar = () => {
       <Container>
         {data?.logo && (
           <Navbar.Brand href="/">
-            <img
-              src={data?.logo?.source}
-              className="d-inline-block align-top"
-              alt="main logo"
-              style={
-                data?.logo?.height && data?.logo?.width
-                  ? { height: data?.logo?.height, width: data?.logo?.width }
-                  : styles.logoStyle
-              }
-            />
+            <div>PR</div>
           </Navbar.Brand>
         )}
         <Navbar.Toggle
@@ -81,36 +72,36 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" />
           <Nav>
-            {data
-              && data.sections?.map((section, index) => (section?.type === 'link' ? (
-                <ExternalNavLink
-                  key={section.title}
-                  href={section.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setExpanded(false)}
-                  className="navbar__link"
-                  theme={theme}
-                >
-                  {section.title}
-                </ExternalNavLink>
-              ) : (
-                <InternalNavLink
-                  key={section.title}
-                  onClick={() => setExpanded(false)}
-                  exact={index === 0}
-                  activeClassName="navbar__link--active"
-                  className="navbar__link"
-                  to={section.href}
-                  theme={theme}
-                >
-                  {section.title}
-                </InternalNavLink>
-              )))}
+            {data &&
+              data.sections?.map((section, index) =>
+                section?.type === "link" ? (
+                  <ExternalNavLink
+                    key={section.title}
+                    href={section.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setExpanded(false)}
+                    className="navbar__link"
+                    theme={theme}
+                  >
+                    {section.title}
+                  </ExternalNavLink>
+                ) : (
+                  <InternalNavLink
+                    key={section.title}
+                    onClick={() => setExpanded(false)}
+                    exact={index === 0}
+                    activeClassName="navbar__link--active"
+                    className="navbar__link"
+                    to={section.href}
+                    theme={theme}
+                  >
+                    {section.title}
+                  </InternalNavLink>
+                )
+              )}
           </Nav>
-          <ThemeToggler
-            onClick={() => setExpanded(false)}
-          />
+          <ThemeToggler onClick={() => setExpanded(false)} />
         </Navbar.Collapse>
       </Container>
     </Navbar>

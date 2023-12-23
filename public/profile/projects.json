@@ -1,9 +1,9 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
+            "image" : "images/wip.png",
             "title": "WIP",
-            "bodyText": "Workj in progress",
+            "bodyText": "Work in progress",
             "links": [
                 {
                     "text": "GitHub",
