@@ -24,6 +24,12 @@ const styles = {
     maxHeight: "500px",
     borderRadius: "100px",
   },
+  citStyle: {
+    margin: 40,
+    justifyContent: "center",
+    display: "flex",
+    fontSize: "20px",
+  },
 };
 
 function About(props) {
@@ -57,6 +63,7 @@ function About(props) {
                   <img src={data?.imageSource} alt="profile" />
                 </Col>
               </Row>
+              <p style={styles.citStyle}>~ {data?.citation}</p>
             </Fade>
           ) : (
             <FallbackSpinner />

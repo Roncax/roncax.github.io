@@ -58,8 +58,8 @@ function Skills(props) {
                         src={item.icon}
                         alt={item.title}
                       />
-                          <p>{item.title}</p>
-                          <p>{item.experience} yrs</p>
+                      <p>{item.title}</p>
+                      <p>{item.years} yrs</p>
                     </div>
                   ))}
                 </div>
