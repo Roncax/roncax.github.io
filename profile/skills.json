@@ -7,12 +7,32 @@
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java",
-                    "experience":5
+                    "experience": 5,
+                    "years": 4
                 },
                 {
                     "icon": "images/skills/python.png",
                     "title": "Python",
-                    "experience":4
+                    "experience": 5,
+                    "years": 4
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "C++",
+                    "experience": 2,
+                    "years": 0.5
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "Kotlin",
+                    "experience": 3,
+                    "years": 1
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "PostgreSQL",
+                    "experience": 3,
+                    "years": 2
                 }
             ]
         },
@@ -22,12 +42,26 @@
                 {
                     "icon": "images/skills/android_new.png",
                     "title": "Android",
-                    "experience":3
+                    "experience": 3,
+                    "years": 1
                 },
                 {
                     "icon": "images/skills/react.png",
                     "title": "React",
-                    "experience":1
+                    "experience": 2,
+                    "years": 0.5
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "Java Spring",
+                    "experience": 4,
+                    "years": 2
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "Camunda",
+                    "experience": 5,
+                    "years": 2
                 }
             ]
         },
@@ -37,17 +71,26 @@
                 {
                     "icon": "images/skills/android-studio.png",
                     "title": "Android Studio",
-                    "experience":1
+                    "experience": 1,
+                    "years": 2
                 },
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git",
-                    "experience":4
+                    "experience": 5,
+                    "years": 4
                 },
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker",
-                    "experience":1
+                    "experience": 3,
+                    "years": 2
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "Kubernetes",
+                    "experience": 3,
+                    "years": 2
                 }
             ]
         },
@@ -57,7 +100,36 @@
                 {
                     "icon": "images/skills/pythorch.png",
                     "title": "Pythorch",
-                    "experience":1
+                    "experience": 4,
+                    "years": 1
+                },{
+                    "icon": "images/skills/wip.png",
+                    "title": "Codelab",
+                    "experience": 3,
+                    "years": 2
+                }
+            ]
+        },
+        {
+            "title": "AWS",
+            "items": [
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "EC2",
+                    "experience": 3,
+                    "years": 2
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "Lambda",
+                    "experience": 4,
+                    "years": 1
+                },
+                {
+                    "icon": "images/skills/wip.png",
+                    "title": "Cognito",
+                    "experience": 4,
+                    "years": 1
                 }
             ]
         }
